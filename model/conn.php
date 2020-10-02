@@ -3,7 +3,7 @@
 	{
 	 $dsn = "mysql:host=localhost;dbname=io_exb";
 	 $db = new PDO ($dsn, "root", "root");
-	 //print ("Connected\n");
+	 ///print ("Connected\n");
 	}
 	catch (PDOException $e)
 	{
